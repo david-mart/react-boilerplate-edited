@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import PropTypes from 'prop-types';
 
 class Dashboard extends Component {
     render() {
@@ -17,5 +18,9 @@ class Dashboard extends Component {
         );
     }
 }
+
+Dashboard.propTypes = {
+    children: PropTypes.element
+};
 
 export default Dashboard;

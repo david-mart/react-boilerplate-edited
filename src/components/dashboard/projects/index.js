@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { fetchProjects } from '../../../actions/project-actions';
 import ProjectsTableHead from './projects-table-head';
 import ProjectTableBody from './projects-table-body';
+import PropTypes from 'prop-types';
+
 class ProjectsTable extends Component {
     componentWillMount() {
         this.props.fetchProjects();
@@ -22,6 +24,11 @@ class ProjectsTable extends Component {
         );
     }
 }
+
+ProjectsTable.propTypes = {
+    fetchProjects: PropTypes.func,
+    projects: PropTypes.array
+};
 
 const mapStateToProps = state => {    
     const { projects } = state;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ProjectTableBody = ({data}) => {
     return (
@@ -14,10 +15,14 @@ const ProjectTableBody = ({data}) => {
                         <td>{proj.end_date}</td>
                         <td>{proj.description.slice(0, 50)}</td>
                     </tr>
-                )
+                );
             })}
         </tbody>
-    )
+    );
+};
+
+ProjectTableBody.propTypes = {
+    data: PropTypes.object
 };
 
 export default ProjectTableBody;
