@@ -2,10 +2,10 @@ import React from "react";
 import { shallow } from "enzyme";
 import { expect } from "chai";
 
-import HomePage from './HomePage';
+import HomePage from './index';
 
 describe("<HomePage />", () => {
-    it("should have a HomePage heading", () => {
+    it("should have a Home Page heading", () => {
         const expected = "dotMaps";
 
         const wrapper = shallow(<HomePage />);
