@@ -29,6 +29,7 @@
   "author": "Sadasystems",
   "license": "MIT",
   "dependencies": {
+    "chai": "3.5.0",
     "object-assign": "4.1.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",
