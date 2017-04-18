@@ -1,0 +1,24 @@
+{
+	"js":
+	{
+		"indent_size": 2,
+		"indent_char": " ",
+		"eol": "\n",
+		"indent_level": 0,
+		"indent_with_tabs": true,
+		"preserve_newlines": true,
+		"jslint_happy": false,
+		"space_after_anon_function": false,
+		"brace_style": "expand,preserve-inline",
+		"keep_array_indentation": true,
+		"keep_function_indentation": true,
+		"space_before_conditional": true,
+		"break_chained_methods": true,
+		"eval_code": true,
+		"unescape_strings": true,
+		"wrap_line_length": 0,
+		"wrap_attributes": "force-aligned",
+		"wrap_attributes_indent_size": 4,
+		"end_with_newline": false
+	}
+}

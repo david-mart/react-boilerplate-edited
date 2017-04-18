@@ -6,8 +6,8 @@ Detailed dev technologies are listed at the bottom of the page.
 ## Setup
 1. **Install [Node 7.2.1 or greater](https://nodejs.org)**.
 2. Clone the project.
-    - HTTP:     `git clone git@github.com:david-mart/geo-dotmaps-react.git`
-    - SSH:      `git@github.com:david-mart/geo-dotmaps-react.git`
+    - HTTP:     `git clone git@github.com:sadasystems/geo-dotmaps-react.git`
+    - SSH:      `git@github.com:sadasystems/geo-dotmaps-react.git`
 
 ## Building the Application
 
@@ -30,24 +30,11 @@ npm install
         * Linter will check the code quality of the project.
         * Unit tests are re-ran.
 
-![npm run][npm-run]
-
-[npm-run]: https://github.com/david-mart/geo-dotmaps-react/blob/master/docs/npm-run.png "npm start -s output"
-
-![npm run lint][npm-run-lint]
-
-[npm-run-lint]: https://github.com/david-mart/geo-dotmaps-react/blob/master/docs/npm-run-lint.png "npm start -s output"
-
-
 ## Running Tests and Code Coverage
 * To run tests explicitly, `npm run test`.
 * To perform code coverage analysis: `npm run test:cover`.
     * Code coverage can be viewed in the `/coverage` folder.
         * Open `/coverage/index.html` in your browser to review the results in finer detail
-
-![npm test][npm-test]
-
-[npm-test]: https://github.com/david-mart/geo-dotmaps-react/blob/master/docs/npm-test.png "npm run test:cover output"
 
 ## Building the project
 ```bash

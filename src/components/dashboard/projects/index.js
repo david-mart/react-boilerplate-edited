@@ -13,7 +13,7 @@ class ProjectsTable extends Component {
     render() {
 
         if (this.props.projects.length === 0) {
-            return <div> Loading projects... </div>
+            return <div> Loading projects... </div>;
         }
 
         return (
