@@ -7,6 +7,14 @@ import Root from './components/root';
 import configureStore from './store/configure-store';
 // import './styles/styles.scss'; 
 import { syncHistoryWithStore } from 'react-router-redux';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+
+require('./styles/styles.scss');
+
+// This is required by Material-UI Library 
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin();
 
 const store = configureStore();
 

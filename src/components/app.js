@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, IndexLink } from 'react-router';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TopBar from './shared/top-bar';
 
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
@@ -8,15 +10,18 @@ import { Link, IndexLink } from 'react-router';
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <IndexLink to="/">Home</IndexLink>
-        {' | '}
-        <Link to="/dashboard">Dashboard</Link>
-        {' | '}
-        <Link to="/about">About</Link>
-        <br/>
-        {this.props.children}
-      </div>
+      <MuiThemeProvider>
+        <div>
+          <TopBar />
+          <IndexLink to="/">Home</IndexLink>
+          {' | '}
+          <Link to="/dashboard">Dashboard</Link>
+          {' | '}
+          <Link to="/about">About</Link>
+          <br/>
+          {this.props.children}
+        </div>
+      </MuiThemeProvider>  
     );
   }
 }

@@ -22,7 +22,7 @@ const ProjectTableBody = ({data}) => {
 };
 
 ProjectTableBody.propTypes = {
-    data: PropTypes.object
+    data: PropTypes.array
 };
 
 export default ProjectTableBody;
