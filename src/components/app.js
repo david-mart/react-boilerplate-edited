@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, IndexLink } from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TopBar from './shared/top-bar';
+import muiTheme from '../constants/mui-theme';
 
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
@@ -10,7 +11,7 @@ import TopBar from './shared/top-bar';
 class App extends React.Component {
   render() {
     return (
-      <MuiThemeProvider>
+      <MuiThemeProvider muiTheme={muiTheme}>
         <div>
           <TopBar />
           <IndexLink to="/">Home</IndexLink>
