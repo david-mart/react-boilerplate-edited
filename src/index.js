@@ -9,9 +9,8 @@ import configureStore from './store/configure-store';
 import { syncHistoryWithStore } from 'react-router-redux';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-
-require('./styles/styles.scss');
-
+require('./styles/global.scss');
+// require('roboto-fontface');
 // This is required by Material-UI Library 
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
