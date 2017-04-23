@@ -1,0 +1,11 @@
+@import '../../../styles/vars';
+@import '../../../styles/mixins';
+
+.secondary-bar-container {
+    background: $dotmaps-blue;
+    @include flexbox();
+    @include align-items(center);
+    padding: 0 1em;
+    height: 4em;
+    color: $overlay-text-color;
+}

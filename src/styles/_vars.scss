@@ -5,7 +5,29 @@ $font-stack: 'Roboto', sans-serif;
 $overlay-text-color: #ffffff;
 
 // font-sizes 
-$font-size-page-title: 1.2em; // 19.2px
+$font-size-2: 1.4em; // 19.2px
+$font-size-3: 0.8em; // 12.8px
 
-// margins
-$top-bar-logo-margin: 0 0.8em;
+// colors
+$dotmaps-lighter-blue: #3E73E7;
+$dotmaps-light-blue: #1761E1;
+$dotmaps-blue: #3467D6;
+$dotmaps-dark-blue: #254DAA;
+
+$dotmaps-gray: #4A4A4A;
+
+// custom variables
+$logo-padding: 0 1em 0.2em; // 3.2px
+$navigation-link-padding: 0 1em;
+
+// secondary bar 
+$sec-bar-filters-border-radius: 0.25em;
+$sec-bar-filters-height: 2.4em;
+
+$sec-bar-filters-search-width: 24em;
+$sec-bar-filters-padding: 0.4em;
+
+@mixin filter-height-radius() {
+    border-radius: $sec-bar-filters-border-radius;
+    height: $sec-bar-filters-height;
+}
