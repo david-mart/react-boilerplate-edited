@@ -1,0 +1,18 @@
+@import '../../../../styles/mixins';
+@import '../../../../styles/vars';
+
+.navigation-container {
+    height: 100%;
+    @include flexbox();
+    a {
+        @include flex-all-center();
+        padding: $navigation-link-padding;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: $font-size-3;
+        color: $dotmaps-gray;
+        &[class*="active"] {
+            color: $dotmaps-light-blue;
+        }
+    }    
+}

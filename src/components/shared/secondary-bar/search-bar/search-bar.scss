@@ -1,0 +1,17 @@
+@import '../../../../styles/vars';
+@import '../../../../styles/mixins';
+
+.secondary-bar-search-container {
+    background: $dotmaps-dark-blue;
+    @include filter-height-radius();
+    @include flexbox();
+    @include align-items(center);
+    width: $sec-bar-filters-search-width;
+    padding: 0 $sec-bar-filters-padding;
+    > div {
+        @include flex-grow(1);        
+    }
+    > span {
+        margin-right: $sec-bar-filters-padding
+    }
+}
