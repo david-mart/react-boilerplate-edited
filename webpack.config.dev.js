@@ -2,6 +2,7 @@ import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import autoprefixer from 'autoprefixer';
 import path from 'path';
+import DashboardPlugin from 'webpack-dashboard/plugin';
 
 export default {
   resolve: {
@@ -47,8 +48,9 @@ export default {
         },
         context: '/',
         postcss: () => [autoprefixer],
-      }
-    })
+      }      
+    }),
+    new DashboardPlugin()
   ],
   module: {
     rules: [

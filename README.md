@@ -1,4 +1,4 @@
-# dotMaps React/Redux 
+# React bolierplate - fork from 
 
 Fresh project structure setup. Using **react**/**redux**, **react-router**, **redux-thunk**, **chai**, **react-hot-loader** and more. 
 Detailed dev technologies are listed at the bottom of the page.
@@ -30,6 +30,10 @@ npm install
         * Linter will check the code quality of the project.
         * Unit tests are re-ran.
 
+* `npm run start:dash` 
+    - This will run the same command using _webpack-dashboard_ plugin. Now when you run your dev server, you basically work at NASA (c)
+
+
 ## Running Tests and Code Coverage
 * To run tests explicitly, `npm run test`.
 * To perform code coverage analysis: `npm run test:cover`.
@@ -52,6 +56,7 @@ Slingshot offers a rich development experience using the following technologies:
 |  [React Router](https://github.com/reactjs/react-router) | A complete routing library for React | [Pluralsight Course](https://www.pluralsight.com/courses/react-flux-building-applications) |
 |  [Babel](http://babeljs.io) |  Compiles ES6 to ES5. Enjoy the new version of JavaScript today.     | [ES6 REPL](https://babeljs.io/repl/), [ES6 vs ES5](http://es6-features.org), [ES6 Katas](http://es6katas.org), [Pluralsight course](https://www.pluralsight.com/courses/javascript-fundamentals-es6)    |
 | [Webpack](http://webpack.github.io) | Bundles npm packages and our JS into a single file. Includes hot reloading via [react-transform-hmr](https://www.npmjs.com/package/react-transform-hmr). | [Quick Webpack How-to](https://github.com/petehunt/webpack-howto) [Pluralsight Course](https://www.pluralsight.com/courses/webpack-fundamentals)|
+| [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard) | A CLI dashboard for your webpack dev server | [Getting started](https://github.com/FormidableLabs/webpack-dashboard/blob/master/docs/getting-started.md) |
 | [Browsersync](https://www.browsersync.io/) | Lightweight development HTTP server that supports synchronized testing and debugging on multiple devices. | [Intro vid](https://www.youtube.com/watch?time_continue=1&v=heNWfzc7ufQ)|
 | [Mocha](https://mochajs.org/) | Feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.  | [Official Wiki](https://github.com/mochajs/mocha/wiki) |
 | [Material-UI](http://www.material-ui.com/#/) | A Set of React Components that Implement Google's Material Design. | [Getting started](http://www.material-ui.com/#/get-started/required-knowledge), [Google Material Design specs](https://material.io/guidelines/) |
