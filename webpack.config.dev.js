@@ -29,7 +29,8 @@ export default {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({     // Create HTML file that includes references to bundled CSS and JS.
-      template: 'src/index.ejs',
+      template: 'src/index.html',
+      favicon: 'src/favicon.ico',
       minify: {
         removeComments: true,
         collapseWhitespace: true
