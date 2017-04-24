@@ -33,6 +33,7 @@
     "axios": "0.16.1",
     "babel-register": "6.24.1",
     "chai": "3.5.0",
+    "clarifai": "^2.1.5",
     "material-ui": "0.17.4",
     "object-assign": "4.1.0",
     "react": "15.4.1",

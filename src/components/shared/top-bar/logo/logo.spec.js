@@ -5,8 +5,8 @@ import { expect } from 'chai';
 import Logo from './index';
 
 describe('<Logo />', () => {
-    it('should have read "dotmaps" text', () => {
-        const expected = 'dotmaps';
+    it('should have read "reactApp" text', () => {
+        const expected = 'reactApp';
         const wrapper = shallow(<Logo />);
         const actual = wrapper.text();
 

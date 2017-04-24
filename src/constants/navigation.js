@@ -4,8 +4,8 @@ export const menuItems = [
         url: ''
     },
     {
-        label: 'Additional Page',
-        url: 'additional-page'
+        label: 'Playground',
+        url: 'playground'
     },
     {
         label: 'About',
